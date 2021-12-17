@@ -1,4 +1,4 @@
-package com.example.springboot;
+package com.contendo.application;
 
 import org.junit.jupiter.api.Test;
 

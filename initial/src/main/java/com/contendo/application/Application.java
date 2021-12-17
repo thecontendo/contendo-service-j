@@ -1,4 +1,4 @@
-package com.example.springboot;
+package com.contendo.application;
 
 import java.util.Arrays;
 
