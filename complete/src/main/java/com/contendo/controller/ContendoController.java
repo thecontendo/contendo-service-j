@@ -6,8 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ContendoController {
 
-	@GetMapping("/")
-	public String index() {
+	@GetMapping("/create-user")
+	public String craeteUser() {
+
 		return "Greetings from Contendo!";
 	}
 
