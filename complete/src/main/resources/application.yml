@@ -1,0 +1,12 @@
+azure:
+  activedirectory:
+    tenant-id: 74109ac4-691f-4d54-bd8a-f6aff63f37f3
+    client-id: 45401557-ee84-4e62-a9a2-fd6a92d1c2f5
+    client-secret: ~SJ7Q~6NhKq_ICBky0nwtbWzEJEvcIuAJAhMV
+    app-id-uri: api://45401557-ee84-4e62-a9a2-fd6a92d1c2f5
+    application-type: web_application_and_resource_server  # This is required.
+    authorization-clients:
+      graph:
+        authorizationGrantType: authorization_code  # This is required.
+        scopes:
+           - https://graph.microsoft.com/User.Read
